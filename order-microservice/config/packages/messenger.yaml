@@ -1,0 +1,48 @@
+framework:
+    messenger:
+        # Uncomment this (and the failed transport below) to send failed messages to this transport for later handling.
+        failure_transport: failed
+
+        transports:
+            # https://symfony.com/doc/current/messenger.html#transport-configuration
+            rabbitmq_order_events:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_RABBITMQ)%'
+                retry_strategy:
+                    max_retries: 5
+                    # milliseconds delay
+                    delay: 60000
+                    # results in retrying up to 52 hours later.
+                    multiplier: 5
+                serializer: messenger.transport.symfony_serializer
+                options:
+                    exchange:
+                        name: order-events
+                    queues:
+                        messages:
+                            arguments:
+                                x-dead-letter-exchange: order-events-dlx
+                                # Message ttl will be 2 days
+                                x-message-ttl: 172800000
+
+            rabbitmq_order_events_dlx:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_RABBITMQ)%'
+                serializer: messenger.transport.symfony_serializer
+                options:
+                    exchange:
+                        name: order-events-dlx
+
+            async:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_DOCTRINE)%'
+                retry_strategy:
+                    max_retries: 5
+                    # milliseconds delay
+                    delay: 300000
+                    # results in retrying up to 52 hours later.
+                    multiplier: 5
+            failed: '%env(MESSENGER_TRANSPORT_DSN_DOCTRINE)%?queue_name=failed'
+            # sync: 'sync://'
+
+        routing:
+            # Route your messages to the transports
+            'App\Message\OrderEventMessage': async
+            'App\Domain\MessageBus\Message\OrderEventBusMessage': rabbitmq_order_events

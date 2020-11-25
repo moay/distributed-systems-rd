@@ -1,0 +1,892 @@
+2020-11-25 08:56:37,945 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 08:56:37,946 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 08:56:37,954 INFO supervisord started with pid 1
+2020-11-25 08:56:38,959 INFO spawned: 'consume-async' with pid 82
+2020-11-25 08:56:38,966 INFO spawned: 'consume-rabbitmq' with pid 83
+2020-11-25 08:56:38,971 INFO spawned: 'php-fpm' with pid 84
+2020-11-25 08:56:38,974 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 08:56:40,727 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:40,731 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:40,735 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:40,736 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:41,742 INFO spawned: 'consume-rabbitmq' with pid 99
+2020-11-25 08:56:43,064 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:43,068 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:44,076 INFO spawned: 'consume-rabbitmq' with pid 106
+2020-11-25 08:56:45,372 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:45,376 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:46,382 INFO spawned: 'consume-rabbitmq' with pid 113
+2020-11-25 08:56:47,728 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:47,729 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:48,734 INFO spawned: 'consume-rabbitmq' with pid 120
+2020-11-25 08:56:50,080 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:50,084 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:51,095 INFO spawned: 'consume-rabbitmq' with pid 127
+2020-11-25 08:56:52,488 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:52,490 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:53,497 INFO spawned: 'consume-rabbitmq' with pid 134
+2020-11-25 08:56:54,844 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:54,849 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:55,855 INFO spawned: 'consume-rabbitmq' with pid 141
+2020-11-25 08:56:57,176 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:57,178 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:56:58,183 INFO spawned: 'consume-rabbitmq' with pid 148
+2020-11-25 08:56:59,446 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:59,451 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:00,460 INFO spawned: 'consume-rabbitmq' with pid 155
+2020-11-25 08:57:01,807 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:01,809 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:02,815 INFO spawned: 'consume-rabbitmq' with pid 162
+2020-11-25 08:57:04,057 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:04,061 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:05,071 INFO spawned: 'consume-rabbitmq' with pid 169
+2020-11-25 08:57:06,369 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:06,373 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:07,383 INFO spawned: 'consume-rabbitmq' with pid 176
+2020-11-25 08:57:08,671 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:08,677 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:09,688 INFO spawned: 'consume-rabbitmq' with pid 183
+2020-11-25 08:57:10,976 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:10,980 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:11,990 INFO spawned: 'consume-rabbitmq' with pid 190
+2020-11-25 08:57:13,276 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:13,280 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:14,289 INFO spawned: 'consume-rabbitmq' with pid 197
+2020-11-25 08:57:15,637 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:15,640 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:16,645 INFO spawned: 'consume-rabbitmq' with pid 204
+2020-11-25 08:57:18,007 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:18,010 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:19,021 INFO spawned: 'consume-rabbitmq' with pid 211
+2020-11-25 08:57:20,303 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:20,309 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:21,318 INFO spawned: 'consume-rabbitmq' with pid 218
+2020-11-25 08:57:22,615 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:22,619 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:23,627 INFO spawned: 'consume-rabbitmq' with pid 225
+2020-11-25 08:57:24,911 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:24,913 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:25,918 INFO spawned: 'consume-rabbitmq' with pid 232
+2020-11-25 08:57:27,234 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:27,236 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:28,243 INFO spawned: 'consume-rabbitmq' with pid 239
+2020-11-25 08:57:29,526 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:29,528 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:30,533 INFO spawned: 'consume-rabbitmq' with pid 246
+2020-11-25 08:57:31,850 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:31,853 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:32,858 INFO spawned: 'consume-rabbitmq' with pid 253
+2020-11-25 08:57:34,176 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:34,178 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:35,182 INFO spawned: 'consume-rabbitmq' with pid 260
+2020-11-25 08:57:36,503 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:36,504 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:37,509 INFO spawned: 'consume-rabbitmq' with pid 267
+2020-11-25 08:57:38,879 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:38,880 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:57:39,886 INFO spawned: 'consume-rabbitmq' with pid 274
+2020-11-25 08:57:39,888 WARN received SIGQUIT indicating exit request
+2020-11-25 08:57:39,890 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 08:57:39,901 INFO stopped: php-fpm (exit status 0)
+2020-11-25 08:57:39,910 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 08:57:39,917 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 08:59:03,241 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 08:59:03,242 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 08:59:03,252 INFO supervisord started with pid 1
+2020-11-25 08:59:04,222 INFO spawned: 'consume-async' with pid 71
+2020-11-25 08:59:04,228 INFO spawned: 'consume-rabbitmq' with pid 72
+2020-11-25 08:59:04,235 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 08:59:04,238 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 08:59:04,937 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:59:05,940 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:05,946 INFO spawned: 'consume-rabbitmq' with pid 88
+2020-11-25 08:59:05,955 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:07,316 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:07,319 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:59:08,328 INFO spawned: 'consume-rabbitmq' with pid 95
+2020-11-25 08:59:09,709 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:09,711 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:59:10,718 INFO spawned: 'consume-rabbitmq' with pid 102
+2020-11-25 08:59:12,031 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:12,033 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:59:13,040 INFO spawned: 'consume-rabbitmq' with pid 109
+2020-11-25 08:59:14,432 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:14,437 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 08:59:15,444 INFO spawned: 'consume-rabbitmq' with pid 116
+2020-11-25 08:59:15,451 WARN received SIGQUIT indicating exit request
+2020-11-25 08:59:15,454 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 08:59:15,467 INFO stopped: php-fpm (exit status 0)
+2020-11-25 08:59:15,470 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 08:59:15,477 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:03:46,512 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:03:46,514 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:03:46,524 INFO supervisord started with pid 1
+2020-11-25 09:03:47,529 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:03:47,536 INFO spawned: 'consume-rabbitmq' with pid 73
+2020-11-25 09:03:47,543 INFO spawned: 'php-fpm' with pid 74
+2020-11-25 09:03:47,545 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:03:48,292 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:03:49,295 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:49,299 INFO spawned: 'consume-rabbitmq' with pid 89
+2020-11-25 09:03:49,301 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:50,587 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:50,590 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:03:51,599 INFO spawned: 'consume-rabbitmq' with pid 96
+2020-11-25 09:03:52,901 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:52,902 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:03:53,908 INFO spawned: 'consume-rabbitmq' with pid 103
+2020-11-25 09:03:55,230 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:55,234 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:03:56,240 INFO spawned: 'consume-rabbitmq' with pid 110
+2020-11-25 09:03:57,525 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:57,528 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:03:58,538 INFO spawned: 'consume-rabbitmq' with pid 117
+2020-11-25 09:03:59,836 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:59,840 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:00,849 INFO spawned: 'consume-rabbitmq' with pid 124
+2020-11-25 09:04:02,130 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:02,133 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:03,108 INFO spawned: 'consume-rabbitmq' with pid 131
+2020-11-25 09:04:04,420 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:04,424 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:05,436 INFO spawned: 'consume-rabbitmq' with pid 138
+2020-11-25 09:04:06,756 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:06,757 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:07,762 INFO spawned: 'consume-rabbitmq' with pid 145
+2020-11-25 09:04:09,041 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:09,044 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:10,050 INFO spawned: 'consume-rabbitmq' with pid 152
+2020-11-25 09:04:11,369 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:11,370 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:12,374 INFO spawned: 'consume-rabbitmq' with pid 159
+2020-11-25 09:04:13,665 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:13,668 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:14,675 INFO spawned: 'consume-rabbitmq' with pid 166
+2020-11-25 09:04:16,044 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:16,046 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:17,051 INFO spawned: 'consume-rabbitmq' with pid 173
+2020-11-25 09:04:18,329 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:18,332 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:19,340 INFO spawned: 'consume-rabbitmq' with pid 180
+2020-11-25 09:04:20,671 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:20,672 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:21,682 INFO spawned: 'consume-rabbitmq' with pid 187
+2020-11-25 09:04:22,960 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:22,964 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:23,975 INFO spawned: 'consume-rabbitmq' with pid 194
+2020-11-25 09:04:25,297 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:25,302 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:26,315 INFO spawned: 'consume-rabbitmq' with pid 201
+2020-11-25 09:04:27,589 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:27,592 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:28,603 INFO spawned: 'consume-rabbitmq' with pid 208
+2020-11-25 09:04:29,902 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:29,907 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:30,916 INFO spawned: 'consume-rabbitmq' with pid 215
+2020-11-25 09:04:32,203 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:32,207 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:33,180 INFO spawned: 'consume-rabbitmq' with pid 222
+2020-11-25 09:04:34,466 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:34,472 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:35,485 INFO spawned: 'consume-rabbitmq' with pid 229
+2020-11-25 09:04:36,758 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:36,763 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:37,772 INFO spawned: 'consume-rabbitmq' with pid 236
+2020-11-25 09:04:39,037 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:39,040 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:40,047 INFO spawned: 'consume-rabbitmq' with pid 243
+2020-11-25 09:04:41,358 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:41,361 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:42,369 INFO spawned: 'consume-rabbitmq' with pid 250
+2020-11-25 09:04:43,665 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:43,666 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:44,671 INFO spawned: 'consume-rabbitmq' with pid 257
+2020-11-25 09:04:45,998 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:46,000 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:47,007 INFO spawned: 'consume-rabbitmq' with pid 264
+2020-11-25 09:04:48,302 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:48,305 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:49,318 INFO spawned: 'consume-rabbitmq' with pid 271
+2020-11-25 09:04:50,648 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:50,652 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:51,657 INFO spawned: 'consume-rabbitmq' with pid 278
+2020-11-25 09:04:52,947 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:52,949 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:53,954 INFO spawned: 'consume-rabbitmq' with pid 285
+2020-11-25 09:04:55,359 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:55,361 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:56,365 INFO spawned: 'consume-rabbitmq' with pid 292
+2020-11-25 09:04:57,667 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:57,668 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:04:58,679 INFO spawned: 'consume-rabbitmq' with pid 299
+2020-11-25 09:04:59,984 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:04:59,986 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:00,993 INFO spawned: 'consume-rabbitmq' with pid 306
+2020-11-25 09:05:02,293 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:02,297 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:03,271 INFO spawned: 'consume-rabbitmq' with pid 313
+2020-11-25 09:05:04,578 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:04,580 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:05,590 INFO spawned: 'consume-rabbitmq' with pid 320
+2020-11-25 09:05:06,875 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:06,877 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:07,888 INFO spawned: 'consume-rabbitmq' with pid 327
+2020-11-25 09:05:09,146 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:09,152 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:10,161 INFO spawned: 'consume-rabbitmq' with pid 334
+2020-11-25 09:05:11,450 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:11,455 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:12,466 INFO spawned: 'consume-rabbitmq' with pid 341
+2020-11-25 09:05:13,746 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:13,748 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:14,759 INFO spawned: 'consume-rabbitmq' with pid 348
+2020-11-25 09:05:16,046 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:16,049 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:17,061 INFO spawned: 'consume-rabbitmq' with pid 355
+2020-11-25 09:05:18,322 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:18,326 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:19,338 INFO spawned: 'consume-rabbitmq' with pid 362
+2020-11-25 09:05:20,601 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:20,603 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:21,608 INFO spawned: 'consume-rabbitmq' with pid 369
+2020-11-25 09:05:22,948 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:22,950 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:23,957 INFO spawned: 'consume-rabbitmq' with pid 376
+2020-11-25 09:05:25,243 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:25,246 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:26,251 INFO spawned: 'consume-rabbitmq' with pid 383
+2020-11-25 09:05:27,608 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:27,614 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:28,620 INFO spawned: 'consume-rabbitmq' with pid 390
+2020-11-25 09:05:29,942 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:29,944 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:30,949 INFO spawned: 'consume-rabbitmq' with pid 397
+2020-11-25 09:05:32,250 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:32,254 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:33,225 INFO spawned: 'consume-rabbitmq' with pid 404
+2020-11-25 09:05:34,538 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:34,540 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:35,545 INFO spawned: 'consume-rabbitmq' with pid 411
+2020-11-25 09:05:36,819 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:36,822 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:37,833 INFO spawned: 'consume-rabbitmq' with pid 418
+2020-11-25 09:05:39,147 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:39,148 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:40,156 INFO spawned: 'consume-rabbitmq' with pid 425
+2020-11-25 09:05:41,454 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:41,458 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:42,464 INFO spawned: 'consume-rabbitmq' with pid 432
+2020-11-25 09:05:43,777 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:43,781 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:44,792 INFO spawned: 'consume-rabbitmq' with pid 439
+2020-11-25 09:05:46,075 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:46,079 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:47,086 INFO spawned: 'consume-rabbitmq' with pid 446
+2020-11-25 09:05:48,347 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:48,349 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:49,357 INFO spawned: 'consume-rabbitmq' with pid 453
+2020-11-25 09:05:50,649 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:50,655 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:51,664 INFO spawned: 'consume-rabbitmq' with pid 460
+2020-11-25 09:05:52,921 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:52,924 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:53,930 INFO spawned: 'consume-rabbitmq' with pid 467
+2020-11-25 09:05:55,228 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:55,231 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:56,238 INFO spawned: 'consume-rabbitmq' with pid 474
+2020-11-25 09:05:57,542 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:57,543 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:05:58,547 INFO spawned: 'consume-rabbitmq' with pid 481
+2020-11-25 09:05:59,858 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:05:59,860 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:00,869 INFO spawned: 'consume-rabbitmq' with pid 488
+2020-11-25 09:06:02,158 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:02,161 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:03,131 INFO spawned: 'consume-rabbitmq' with pid 495
+2020-11-25 09:06:04,465 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:04,468 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:05,476 INFO spawned: 'consume-rabbitmq' with pid 502
+2020-11-25 09:06:06,778 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:06,780 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:07,785 INFO spawned: 'consume-rabbitmq' with pid 509
+2020-11-25 09:06:09,085 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:09,088 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:10,099 INFO spawned: 'consume-rabbitmq' with pid 516
+2020-11-25 09:06:11,437 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:11,439 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:12,443 INFO spawned: 'consume-rabbitmq' with pid 523
+2020-11-25 09:06:13,716 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:13,720 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:14,730 INFO spawned: 'consume-rabbitmq' with pid 530
+2020-11-25 09:06:16,002 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:16,007 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:17,017 INFO spawned: 'consume-rabbitmq' with pid 537
+2020-11-25 09:06:18,280 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:18,282 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:19,288 INFO spawned: 'consume-rabbitmq' with pid 544
+2020-11-25 09:06:20,558 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:20,564 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:21,573 INFO spawned: 'consume-rabbitmq' with pid 551
+2020-11-25 09:06:22,854 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:22,859 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:23,868 INFO spawned: 'consume-rabbitmq' with pid 558
+2020-11-25 09:06:25,155 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:25,171 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:26,177 INFO spawned: 'consume-rabbitmq' with pid 565
+2020-11-25 09:06:27,472 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:27,475 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:28,484 INFO spawned: 'consume-rabbitmq' with pid 572
+2020-11-25 09:06:29,766 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:29,771 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:30,781 INFO spawned: 'consume-rabbitmq' with pid 579
+2020-11-25 09:06:32,084 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:32,089 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:33,065 INFO spawned: 'consume-rabbitmq' with pid 586
+2020-11-25 09:06:34,390 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:34,394 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:35,401 INFO spawned: 'consume-rabbitmq' with pid 593
+2020-11-25 09:06:36,721 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:36,723 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:37,727 INFO spawned: 'consume-rabbitmq' with pid 600
+2020-11-25 09:06:39,040 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:39,045 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:40,053 INFO spawned: 'consume-rabbitmq' with pid 607
+2020-11-25 09:06:41,408 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:41,409 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:42,414 INFO spawned: 'consume-rabbitmq' with pid 614
+2020-11-25 09:06:43,687 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:43,688 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:44,692 INFO spawned: 'consume-rabbitmq' with pid 621
+2020-11-25 09:06:46,039 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:46,041 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:47,046 INFO spawned: 'consume-rabbitmq' with pid 628
+2020-11-25 09:06:48,317 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:48,320 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:49,325 INFO spawned: 'consume-rabbitmq' with pid 635
+2020-11-25 09:06:50,626 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:50,627 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:51,632 INFO spawned: 'consume-rabbitmq' with pid 642
+2020-11-25 09:06:52,892 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:52,895 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:53,906 INFO spawned: 'consume-rabbitmq' with pid 649
+2020-11-25 09:06:55,171 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:55,172 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:56,178 INFO spawned: 'consume-rabbitmq' with pid 656
+2020-11-25 09:06:57,429 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:57,434 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:06:58,440 INFO spawned: 'consume-rabbitmq' with pid 663
+2020-11-25 09:06:59,717 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:06:59,722 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:00,732 INFO spawned: 'consume-rabbitmq' with pid 670
+2020-11-25 09:07:02,039 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:02,042 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:03,014 INFO spawned: 'consume-rabbitmq' with pid 677
+2020-11-25 09:07:04,308 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:04,310 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:05,321 INFO spawned: 'consume-rabbitmq' with pid 684
+2020-11-25 09:07:06,616 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:06,617 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:07,626 INFO spawned: 'consume-rabbitmq' with pid 691
+2020-11-25 09:07:08,883 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:08,888 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:09,897 INFO spawned: 'consume-rabbitmq' with pid 698
+2020-11-25 09:07:11,193 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:11,195 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:12,200 INFO spawned: 'consume-rabbitmq' with pid 705
+2020-11-25 09:07:13,451 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:13,456 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:14,460 INFO spawned: 'consume-rabbitmq' with pid 712
+2020-11-25 09:07:15,783 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:15,785 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:16,795 INFO spawned: 'consume-rabbitmq' with pid 719
+2020-11-25 09:07:18,105 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:18,110 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:19,117 INFO spawned: 'consume-rabbitmq' with pid 726
+2020-11-25 09:07:20,428 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:20,430 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:21,436 INFO spawned: 'consume-rabbitmq' with pid 733
+2020-11-25 09:07:22,724 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:22,729 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:23,735 INFO spawned: 'consume-rabbitmq' with pid 740
+2020-11-25 09:07:25,037 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:25,039 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:26,047 INFO spawned: 'consume-rabbitmq' with pid 747
+2020-11-25 09:07:27,310 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:27,312 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:28,317 INFO spawned: 'consume-rabbitmq' with pid 754
+2020-11-25 09:07:29,648 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:29,649 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:30,660 INFO spawned: 'consume-rabbitmq' with pid 761
+2020-11-25 09:07:31,920 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:31,925 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:32,899 INFO spawned: 'consume-rabbitmq' with pid 768
+2020-11-25 09:07:34,213 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:34,217 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:35,226 INFO spawned: 'consume-rabbitmq' with pid 775
+2020-11-25 09:07:36,512 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:36,515 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:37,522 INFO spawned: 'consume-rabbitmq' with pid 782
+2020-11-25 09:07:38,781 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:38,786 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:39,797 INFO spawned: 'consume-rabbitmq' with pid 789
+2020-11-25 09:07:41,110 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:41,114 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:42,122 INFO spawned: 'consume-rabbitmq' with pid 796
+2020-11-25 09:07:43,381 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:43,386 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:44,394 INFO spawned: 'consume-rabbitmq' with pid 803
+2020-11-25 09:07:45,676 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:45,678 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:46,684 INFO spawned: 'consume-rabbitmq' with pid 810
+2020-11-25 09:07:47,945 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:47,950 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:48,959 INFO spawned: 'consume-rabbitmq' with pid 817
+2020-11-25 09:07:50,255 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:50,258 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:51,267 INFO spawned: 'consume-rabbitmq' with pid 824
+2020-11-25 09:07:52,564 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:52,565 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:53,570 INFO spawned: 'consume-rabbitmq' with pid 831
+2020-11-25 09:07:54,892 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:54,894 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:55,903 INFO spawned: 'consume-rabbitmq' with pid 838
+2020-11-25 09:07:57,187 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:57,189 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:07:58,193 INFO spawned: 'consume-rabbitmq' with pid 845
+2020-11-25 09:07:59,480 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:07:59,484 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:00,494 INFO spawned: 'consume-rabbitmq' with pid 852
+2020-11-25 09:08:01,782 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:01,784 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:02,753 INFO spawned: 'consume-rabbitmq' with pid 859
+2020-11-25 09:08:04,066 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:04,068 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:05,076 INFO spawned: 'consume-rabbitmq' with pid 866
+2020-11-25 09:08:06,354 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:06,355 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:07,360 INFO spawned: 'consume-rabbitmq' with pid 873
+2020-11-25 09:08:08,687 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:08,689 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:09,695 INFO spawned: 'consume-rabbitmq' with pid 880
+2020-11-25 09:08:10,971 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:10,976 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:11,984 INFO spawned: 'consume-rabbitmq' with pid 887
+2020-11-25 09:08:13,269 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:13,272 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:14,283 INFO spawned: 'consume-rabbitmq' with pid 894
+2020-11-25 09:08:15,549 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:15,555 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:16,563 INFO spawned: 'consume-rabbitmq' with pid 901
+2020-11-25 09:08:17,855 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:17,860 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:18,869 INFO spawned: 'consume-rabbitmq' with pid 908
+2020-11-25 09:08:20,127 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:20,131 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:21,138 INFO spawned: 'consume-rabbitmq' with pid 915
+2020-11-25 09:08:22,415 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:22,420 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:23,428 INFO spawned: 'consume-rabbitmq' with pid 922
+2020-11-25 09:08:24,687 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:24,692 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:25,703 INFO spawned: 'consume-rabbitmq' with pid 929
+2020-11-25 09:08:26,964 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:26,970 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:27,979 INFO spawned: 'consume-rabbitmq' with pid 936
+2020-11-25 09:08:29,278 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:29,283 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:30,295 INFO spawned: 'consume-rabbitmq' with pid 943
+2020-11-25 09:08:31,620 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:31,625 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:32,631 INFO spawned: 'consume-rabbitmq' with pid 950
+2020-11-25 09:08:33,905 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:33,910 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:34,915 INFO spawned: 'consume-rabbitmq' with pid 957
+2020-11-25 09:08:36,194 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:36,200 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:37,205 INFO spawned: 'consume-rabbitmq' with pid 964
+2020-11-25 09:08:38,498 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:38,500 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:39,510 INFO spawned: 'consume-rabbitmq' with pid 971
+2020-11-25 09:08:40,776 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:40,780 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:41,787 INFO spawned: 'consume-rabbitmq' with pid 978
+2020-11-25 09:08:43,095 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:43,101 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:44,112 INFO spawned: 'consume-rabbitmq' with pid 985
+2020-11-25 09:08:45,377 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:45,381 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:46,387 INFO spawned: 'consume-rabbitmq' with pid 992
+2020-11-25 09:08:47,701 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:47,704 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:48,714 INFO spawned: 'consume-rabbitmq' with pid 999
+2020-11-25 09:08:49,982 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:49,986 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:50,997 INFO spawned: 'consume-rabbitmq' with pid 1006
+2020-11-25 09:08:52,264 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:52,269 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:53,279 INFO spawned: 'consume-rabbitmq' with pid 1013
+2020-11-25 09:08:54,573 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:54,577 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:55,587 INFO spawned: 'consume-rabbitmq' with pid 1020
+2020-11-25 09:08:56,886 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:56,889 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:08:57,895 INFO spawned: 'consume-rabbitmq' with pid 1027
+2020-11-25 09:08:59,177 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:08:59,184 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:00,195 INFO spawned: 'consume-rabbitmq' with pid 1034
+2020-11-25 09:09:01,468 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:01,475 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:02,483 INFO spawned: 'consume-rabbitmq' with pid 1041
+2020-11-25 09:09:03,750 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:03,757 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:04,768 INFO spawned: 'consume-rabbitmq' with pid 1048
+2020-11-25 09:09:06,076 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:06,080 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:07,092 INFO spawned: 'consume-rabbitmq' with pid 1055
+2020-11-25 09:09:08,368 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:08,369 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:09,374 INFO spawned: 'consume-rabbitmq' with pid 1062
+2020-11-25 09:09:10,683 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:10,685 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:11,689 INFO spawned: 'consume-rabbitmq' with pid 1069
+2020-11-25 09:09:13,016 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:13,019 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:14,027 INFO spawned: 'consume-rabbitmq' with pid 1076
+2020-11-25 09:09:15,335 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:15,338 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:16,343 INFO spawned: 'consume-rabbitmq' with pid 1083
+2020-11-25 09:09:17,633 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:17,638 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:18,650 INFO spawned: 'consume-rabbitmq' with pid 1090
+2020-11-25 09:09:19,993 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:19,995 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:21,000 INFO spawned: 'consume-rabbitmq' with pid 1097
+2020-11-25 09:09:22,318 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:22,322 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:23,332 INFO spawned: 'consume-rabbitmq' with pid 1104
+2020-11-25 09:09:24,590 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:24,592 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:25,598 INFO spawned: 'consume-rabbitmq' with pid 1111
+2020-11-25 09:09:26,901 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:26,906 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:27,914 INFO spawned: 'consume-rabbitmq' with pid 1118
+2020-11-25 09:09:29,197 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:29,203 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:30,221 INFO spawned: 'consume-rabbitmq' with pid 1125
+2020-11-25 09:09:31,491 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:31,496 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:32,506 INFO spawned: 'consume-rabbitmq' with pid 1132
+2020-11-25 09:09:33,750 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:33,755 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:34,763 INFO spawned: 'consume-rabbitmq' with pid 1139
+2020-11-25 09:09:36,034 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:36,039 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:37,048 INFO spawned: 'consume-rabbitmq' with pid 1146
+2020-11-25 09:09:38,328 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:38,332 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:39,342 INFO spawned: 'consume-rabbitmq' with pid 1153
+2020-11-25 09:09:40,624 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:40,632 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:41,640 INFO spawned: 'consume-rabbitmq' with pid 1160
+2020-11-25 09:09:42,947 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:42,951 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:43,960 INFO spawned: 'consume-rabbitmq' with pid 1167
+2020-11-25 09:09:45,232 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:45,236 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:46,247 INFO spawned: 'consume-rabbitmq' with pid 1174
+2020-11-25 09:09:47,552 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:47,554 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:48,559 INFO spawned: 'consume-rabbitmq' with pid 1181
+2020-11-25 09:09:49,872 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:49,875 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:50,880 INFO spawned: 'consume-rabbitmq' with pid 1188
+2020-11-25 09:09:52,200 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:52,203 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:53,214 INFO spawned: 'consume-rabbitmq' with pid 1195
+2020-11-25 09:09:54,502 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:54,507 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:55,514 INFO spawned: 'consume-rabbitmq' with pid 1202
+2020-11-25 09:09:56,930 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:56,933 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:09:57,942 INFO spawned: 'consume-rabbitmq' with pid 1209
+2020-11-25 09:09:59,204 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:09:59,207 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:00,213 INFO spawned: 'consume-rabbitmq' with pid 1216
+2020-11-25 09:10:01,507 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:01,513 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:02,524 INFO spawned: 'consume-rabbitmq' with pid 1223
+2020-11-25 09:10:03,785 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:03,788 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:04,793 INFO spawned: 'consume-rabbitmq' with pid 1230
+2020-11-25 09:10:06,090 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:06,097 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:07,108 INFO spawned: 'consume-rabbitmq' with pid 1237
+2020-11-25 09:10:08,411 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:08,417 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:09,427 INFO spawned: 'consume-rabbitmq' with pid 1244
+2020-11-25 09:10:10,714 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:10,718 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:11,728 INFO spawned: 'consume-rabbitmq' with pid 1251
+2020-11-25 09:10:13,003 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:13,008 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:14,018 INFO spawned: 'consume-rabbitmq' with pid 1258
+2020-11-25 09:10:15,317 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:15,324 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:16,333 INFO spawned: 'consume-rabbitmq' with pid 1265
+2020-11-25 09:10:17,588 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:17,594 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:18,605 INFO spawned: 'consume-rabbitmq' with pid 1272
+2020-11-25 09:10:19,894 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:19,895 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:20,904 INFO spawned: 'consume-rabbitmq' with pid 1279
+2020-11-25 09:10:22,172 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:22,175 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:23,183 INFO spawned: 'consume-rabbitmq' with pid 1286
+2020-11-25 09:10:24,455 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:24,457 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:25,467 INFO spawned: 'consume-rabbitmq' with pid 1293
+2020-11-25 09:10:26,768 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:26,772 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:27,779 INFO spawned: 'consume-rabbitmq' with pid 1300
+2020-11-25 09:10:29,116 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:29,118 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:30,122 INFO spawned: 'consume-rabbitmq' with pid 1307
+2020-11-25 09:10:31,453 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:31,457 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:32,463 INFO spawned: 'consume-rabbitmq' with pid 1314
+2020-11-25 09:10:33,768 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:33,769 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:34,774 INFO spawned: 'consume-rabbitmq' with pid 1321
+2020-11-25 09:10:36,065 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:36,072 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:37,078 INFO spawned: 'consume-rabbitmq' with pid 1328
+2020-11-25 09:10:38,439 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:38,440 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:39,447 INFO spawned: 'consume-rabbitmq' with pid 1335
+2020-11-25 09:10:40,718 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:40,722 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:41,728 INFO spawned: 'consume-rabbitmq' with pid 1342
+2020-11-25 09:10:43,062 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:43,064 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:44,069 INFO spawned: 'consume-rabbitmq' with pid 1349
+2020-11-25 09:10:45,394 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:45,396 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:46,407 INFO spawned: 'consume-rabbitmq' with pid 1356
+2020-11-25 09:10:47,696 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:47,699 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:48,710 INFO spawned: 'consume-rabbitmq' with pid 1363
+2020-11-25 09:10:49,997 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:50,003 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:51,012 INFO spawned: 'consume-rabbitmq' with pid 1370
+2020-11-25 09:10:52,322 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:52,326 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:53,336 INFO spawned: 'consume-rabbitmq' with pid 1377
+2020-11-25 09:10:54,593 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:54,598 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:55,606 INFO spawned: 'consume-rabbitmq' with pid 1384
+2020-11-25 09:10:56,857 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:56,861 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:10:57,870 INFO spawned: 'consume-rabbitmq' with pid 1391
+2020-11-25 09:10:59,159 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:10:59,163 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:00,174 INFO spawned: 'consume-rabbitmq' with pid 1398
+2020-11-25 09:11:01,441 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:01,445 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:02,453 INFO spawned: 'consume-rabbitmq' with pid 1405
+2020-11-25 09:11:03,738 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:03,742 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:04,752 INFO spawned: 'consume-rabbitmq' with pid 1412
+2020-11-25 09:11:06,037 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:06,039 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:07,045 INFO spawned: 'consume-rabbitmq' with pid 1419
+2020-11-25 09:11:08,354 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:08,356 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:09,365 INFO spawned: 'consume-rabbitmq' with pid 1426
+2020-11-25 09:11:10,649 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:10,653 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:11,657 INFO spawned: 'consume-rabbitmq' with pid 1433
+2020-11-25 09:11:12,963 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:12,965 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:13,972 INFO spawned: 'consume-rabbitmq' with pid 1440
+2020-11-25 09:11:15,276 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:15,278 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:16,283 INFO spawned: 'consume-rabbitmq' with pid 1447
+2020-11-25 09:11:17,568 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:17,570 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:18,577 INFO spawned: 'consume-rabbitmq' with pid 1454
+2020-11-25 09:11:19,830 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:19,833 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:20,837 INFO spawned: 'consume-rabbitmq' with pid 1461
+2020-11-25 09:11:22,168 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:22,173 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:23,183 INFO spawned: 'consume-rabbitmq' with pid 1468
+2020-11-25 09:11:24,576 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:24,581 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:25,592 INFO spawned: 'consume-rabbitmq' with pid 1475
+2020-11-25 09:11:26,874 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:26,877 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:27,885 INFO spawned: 'consume-rabbitmq' with pid 1482
+2020-11-25 09:11:29,174 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:29,177 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:30,184 INFO spawned: 'consume-rabbitmq' with pid 1489
+2020-11-25 09:11:31,447 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:31,452 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:32,464 INFO spawned: 'consume-rabbitmq' with pid 1496
+2020-11-25 09:11:33,720 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:33,724 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:34,733 INFO spawned: 'consume-rabbitmq' with pid 1503
+2020-11-25 09:11:36,000 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:36,004 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:37,011 INFO spawned: 'consume-rabbitmq' with pid 1510
+2020-11-25 09:11:38,336 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:38,342 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:39,351 INFO spawned: 'consume-rabbitmq' with pid 1517
+2020-11-25 09:11:40,611 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:40,615 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:41,626 INFO spawned: 'consume-rabbitmq' with pid 1524
+2020-11-25 09:11:42,905 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:42,908 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:43,916 INFO spawned: 'consume-rabbitmq' with pid 1531
+2020-11-25 09:11:45,170 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:45,172 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:46,177 INFO spawned: 'consume-rabbitmq' with pid 1538
+2020-11-25 09:11:47,472 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:47,474 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:48,483 INFO spawned: 'consume-rabbitmq' with pid 1545
+2020-11-25 09:11:49,774 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:49,776 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:50,781 INFO spawned: 'consume-rabbitmq' with pid 1552
+2020-11-25 09:11:52,089 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:52,092 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:53,097 INFO spawned: 'consume-rabbitmq' with pid 1559
+2020-11-25 09:11:54,589 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:54,590 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:55,594 INFO spawned: 'consume-rabbitmq' with pid 1566
+2020-11-25 09:11:56,891 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:56,893 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:11:57,901 INFO spawned: 'consume-rabbitmq' with pid 1573
+2020-11-25 09:11:59,179 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:11:59,180 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:00,184 INFO spawned: 'consume-rabbitmq' with pid 1580
+2020-11-25 09:12:01,492 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:01,494 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:02,525 INFO spawned: 'consume-rabbitmq' with pid 1587
+2020-11-25 09:12:03,821 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:03,825 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:04,836 INFO spawned: 'consume-rabbitmq' with pid 1594
+2020-11-25 09:12:06,096 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:06,102 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:07,111 INFO spawned: 'consume-rabbitmq' with pid 1601
+2020-11-25 09:12:08,366 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:08,371 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:09,376 INFO spawned: 'consume-rabbitmq' with pid 1608
+2020-11-25 09:12:10,638 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:10,641 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:12:16,083 INFO spawned: 'consume-rabbitmq' with pid 1615
+2020-11-25 09:12:17,440 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:12:17,445 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:27,609 INFO spawned: 'consume-rabbitmq' with pid 1622
+2020-11-25 09:14:28,632 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:30,301 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:31,306 INFO spawned: 'consume-rabbitmq' with pid 1629
+2020-11-25 09:14:32,619 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:32,623 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:33,629 INFO spawned: 'consume-rabbitmq' with pid 1636
+2020-11-25 09:14:35,051 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:35,055 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:36,061 INFO spawned: 'consume-rabbitmq' with pid 1643
+2020-11-25 09:14:37,555 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:37,556 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:38,561 INFO spawned: 'consume-rabbitmq' with pid 1650
+2020-11-25 09:14:39,878 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:39,880 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:40,884 INFO spawned: 'consume-rabbitmq' with pid 1657
+2020-11-25 09:14:41,454 WARN received SIGQUIT indicating exit request
+2020-11-25 09:14:41,461 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:14:41,467 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:14:41,469 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:14:41,487 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:16:31,123 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:16:31,124 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:16:31,133 INFO supervisord started with pid 1
+2020-11-25 09:16:32,140 INFO spawned: 'consume-async' with pid 71
+2020-11-25 09:16:32,147 INFO spawned: 'consume-rabbitmq' with pid 72
+2020-11-25 09:16:32,155 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 09:16:32,158 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 09:16:33,721 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:16:33,722 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:16:33,727 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:17:22,698 WARN received SIGQUIT indicating exit request
+2020-11-25 09:17:22,699 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:17:22,706 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:17:22,710 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 09:17:22,719 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:18:34,807 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:18:34,829 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:18:34,869 INFO supervisord started with pid 1
+2020-11-25 09:18:35,877 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:18:35,883 INFO spawned: 'consume-rabbitmq' with pid 73
+2020-11-25 09:18:35,889 INFO spawned: 'php-fpm' with pid 74
+2020-11-25 09:18:35,891 INFO reaped unknown pid 39 (exit status 0)
+2020-11-25 09:18:35,892 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:18:36,518 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:18:37,522 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:37,526 INFO spawned: 'consume-rabbitmq' with pid 89
+2020-11-25 09:18:37,528 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:38,801 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:38,803 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:18:39,809 INFO spawned: 'consume-rabbitmq' with pid 96
+2020-11-25 09:18:41,142 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:41,144 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:18:42,150 INFO spawned: 'consume-rabbitmq' with pid 103
+2020-11-25 09:18:42,567 WARN received SIGQUIT indicating exit request
+2020-11-25 09:18:42,569 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:18:42,575 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:18:42,577 INFO exited: consume-rabbitmq (exit status 1; not expected)
+2020-11-25 09:18:42,585 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:21:09,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:21:09,589 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:21:09,599 INFO supervisord started with pid 1
+2020-11-25 09:21:10,607 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:21:10,615 INFO spawned: 'consume-rabbitmq' with pid 73
+2020-11-25 09:21:10,623 INFO spawned: 'php-fpm' with pid 74
+2020-11-25 09:21:10,625 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:21:12,180 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:21:12,184 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:21:12,188 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:22:12,588 WARN received SIGQUIT indicating exit request
+2020-11-25 09:22:12,590 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:22:12,597 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:22:12,602 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 09:22:12,610 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:26:28,749 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:26:28,751 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:26:28,782 INFO supervisord started with pid 1
+2020-11-25 09:26:29,790 INFO spawned: 'consume-async' with pid 71
+2020-11-25 09:26:29,800 INFO spawned: 'consume-rabbitmq' with pid 72
+2020-11-25 09:26:29,816 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 09:26:29,820 INFO reaped unknown pid 38 (exit status 0)
+2020-11-25 09:26:29,824 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 09:26:31,564 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:26:31,566 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:26:31,568 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:27:06,557 WARN received SIGQUIT indicating exit request
+2020-11-25 09:27:06,558 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:27:06,563 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:27:07,568 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 09:27:07,577 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:33:29,757 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:33:29,758 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:33:29,773 INFO supervisord started with pid 1
+2020-11-25 09:33:30,778 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:33:30,786 INFO spawned: 'consume-rabbitmq' with pid 73
+2020-11-25 09:33:30,795 INFO spawned: 'php-fpm' with pid 74
+2020-11-25 09:33:30,800 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:33:32,301 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:33:32,303 INFO success: consume-rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:33:32,306 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:34:56,428 WARN received SIGQUIT indicating exit request
+2020-11-25 09:34:56,433 INFO waiting for consume-async, consume-rabbitmq, php-fpm to die
+2020-11-25 09:34:56,444 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:34:56,449 INFO stopped: consume-rabbitmq (terminated by SIGTERM)
+2020-11-25 09:34:56,454 INFO stopped: consume-async (terminated by SIGTERM)

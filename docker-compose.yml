@@ -1,0 +1,95 @@
+version: '3'
+services:
+  order-database:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: order-database-password
+      MYSQL_DATABASE: order-database
+    ports:
+      - '33061:3306'
+  voucher-database:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: voucher-database-password
+      MYSQL_DATABASE: voucher-database
+    ports:
+      - '33062:3306'
+  order-php-fpm:
+    build:
+      context: .docker/php-fpm
+      args:
+        database_service: order-database
+        database_port: 3306
+        supervisor_conf: supervisor/supervisor-order-microservice.conf
+    depends_on:
+      - order-database
+    environment:
+      - APP_ENV=dev
+      - APP_DEBUG=false
+      - APP_SECRET=order-secret
+      - 'DATABASE_URL=mysql://root:order-database-password@order-database:3306/order-database?serverVersion=mariadb-10.5.8'
+      - 'MESSENGER_TRANSPORT_DSN_RABBITMQ=amqp://user:bitnami@rabbitmq:5672/%2f/messages'
+      - 'MESSENGER_TRANSPORT_DSN_DOCTRINE=doctrine://default'
+    volumes:
+      - './order-microservice:/var/www'
+  voucher-php-fpm:
+    build:
+      context: .docker/php-fpm
+      args:
+        database_service: voucher-database
+        database_port: 3306
+        supervisor_conf: supervisor/supervisor-voucher-microservice.conf
+    depends_on:
+      - voucher-database
+      - order-php-fpm
+    environment:
+      - APP_ENV=dev
+      - APP_DEBUG=false
+      - APP_SECRET=voucher-secret
+      - 'DATABASE_URL=mysql://root:voucher-database-password@voucher-database:3306/voucher-database?serverVersion=mariadb-10.5.8'
+      - 'MESSENGER_TRANSPORT_DSN_RABBITMQ=amqp://user:bitnami@rabbitmq:5672/%2f/messages'
+      - 'MESSENGER_TRANSPORT_DSN_DOCTRINE=doctrine://default'
+    volumes:
+      - './voucher-microservice:/var/www'
+  order-nginx:
+    build:
+      context: ./order-microservice/.docker/nginx
+    volumes:
+      - './order-microservice:/var/www'
+      - './order-microservice/.docker/nginx/nginx.conf:/etc/nginx/nginx.conf'
+      - './order-microservice/.docker/nginx/sites/:/etc/nginx/sites-available'
+      - './order-microservice/.docker/nginx/conf.d/:/etc/nginx/conf.d'
+      - './order-microservice/.docker/nginx/logs:/var/log'
+    depends_on:
+      - order-php-fpm
+      - rabbitmq
+    ports:
+      - '5001:80'
+  voucher-nginx:
+    build:
+      context: ./voucher-microservice/.docker/nginx
+    volumes:
+      - './voucher-microservice:/var/www'
+      - './voucher-microservice/.docker/nginx/nginx.conf:/etc/nginx/nginx.conf'
+      - './voucher-microservice/.docker/nginx/sites/:/etc/nginx/sites-available'
+      - './voucher-microservice/.docker/nginx/conf.d/:/etc/nginx/conf.d'
+      - './voucher-microservice/.docker/nginx/logs:/var/log'
+    depends_on:
+      - voucher-php-fpm
+      - rabbitmq
+    ports:
+      - '5002:80'
+  rabbitmq:
+    image: 'docker.io/bitnami/rabbitmq:3.8-debian-10'
+    ports:
+      - '4369:4369'
+      - '5672:5672'
+      - '25672:25672'
+      - '15672:15672'
+    volumes:
+      - 'rabbitmq_data:/bitnami'
+volumes:
+  rabbitmq_data:
+    driver: local

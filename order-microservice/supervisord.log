@@ -1,0 +1,141 @@
+2020-11-25 08:56:37,539 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 08:56:37,540 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 08:56:37,550 INFO supervisord started with pid 1
+2020-11-25 08:56:38,561 INFO spawned: 'consume-async' with pid 87
+2020-11-25 08:56:38,570 INFO spawned: 'php-fpm' with pid 88
+2020-11-25 08:56:38,573 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 08:56:39,872 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:56:39,873 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:57:39,850 WARN received SIGQUIT indicating exit request
+2020-11-25 08:57:39,852 INFO waiting for consume-async, php-fpm to die
+2020-11-25 08:57:39,858 INFO stopped: php-fpm (exit status 0)
+2020-11-25 08:57:39,863 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 08:59:01,242 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 08:59:01,244 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 08:59:01,265 INFO supervisord started with pid 1
+2020-11-25 08:59:02,273 INFO spawned: 'consume-async' with pid 72
+2020-11-25 08:59:02,280 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 08:59:02,286 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 08:59:03,918 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:03,920 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 08:59:13,930 WARN received SIGQUIT indicating exit request
+2020-11-25 08:59:13,933 INFO waiting for consume-async, php-fpm to die
+2020-11-25 08:59:13,941 INFO stopped: php-fpm (exit status 0)
+2020-11-25 08:59:14,948 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:03:46,456 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:03:46,457 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:03:46,469 INFO supervisord started with pid 1
+2020-11-25 09:03:47,478 INFO spawned: 'consume-async' with pid 71
+2020-11-25 09:03:47,487 INFO spawned: 'php-fpm' with pid 72
+2020-11-25 09:03:47,490 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 09:03:49,162 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:03:49,166 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:14:43,620 WARN received SIGQUIT indicating exit request
+2020-11-25 09:14:43,623 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:14:43,630 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:14:43,638 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:16:29,004 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:16:29,007 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:16:29,026 INFO supervisord started with pid 1
+2020-11-25 09:16:30,031 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:16:30,038 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 09:16:30,041 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:16:31,669 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:16:31,672 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:17:23,051 WARN received SIGQUIT indicating exit request
+2020-11-25 09:17:23,053 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:17:23,063 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:17:24,075 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:18:33,221 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:18:33,223 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:18:33,241 INFO supervisord started with pid 1
+2020-11-25 09:18:34,248 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:18:34,264 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 09:18:34,270 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:18:35,761 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:35,763 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:18:43,736 WARN received SIGQUIT indicating exit request
+2020-11-25 09:18:43,741 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:18:43,744 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:18:43,749 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:21:07,502 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:21:07,504 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:21:07,517 INFO supervisord started with pid 1
+2020-11-25 09:21:08,523 INFO spawned: 'consume-async' with pid 72
+2020-11-25 09:21:08,528 INFO spawned: 'php-fpm' with pid 73
+2020-11-25 09:21:08,536 INFO reaped unknown pid 62 (exit status 0)
+2020-11-25 09:21:10,140 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:21:10,142 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:22:13,192 WARN received SIGQUIT indicating exit request
+2020-11-25 09:22:13,194 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:22:13,202 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:22:13,209 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:24:59,632 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:24:59,635 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:24:59,651 INFO supervisord started with pid 1
+2020-11-25 09:25:00,662 INFO spawned: 'consume-async' with pid 52
+2020-11-25 09:25:00,670 INFO spawned: 'php-fpm' with pid 53
+2020-11-25 09:25:00,675 INFO reaped unknown pid 25 (exit status 0)
+2020-11-25 09:25:00,677 INFO reaped unknown pid 42 (exit status 0)
+2020-11-25 09:25:00,802 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:01,807 INFO spawned: 'consume-async' with pid 56
+2020-11-25 09:25:01,809 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:02,898 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:02,899 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:03,908 INFO spawned: 'consume-async' with pid 57
+2020-11-25 09:25:05,032 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:05,033 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:06,037 INFO spawned: 'consume-async' with pid 58
+2020-11-25 09:25:07,137 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:07,138 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:08,144 INFO spawned: 'consume-async' with pid 59
+2020-11-25 09:25:09,239 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:09,241 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:10,246 INFO spawned: 'consume-async' with pid 60
+2020-11-25 09:25:11,384 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:11,387 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:12,361 INFO spawned: 'consume-async' with pid 61
+2020-11-25 09:25:13,535 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:13,537 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:14,544 INFO spawned: 'consume-async' with pid 62
+2020-11-25 09:25:15,689 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:15,691 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:16,698 INFO spawned: 'consume-async' with pid 63
+2020-11-25 09:25:17,836 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:17,839 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:18,847 INFO spawned: 'consume-async' with pid 64
+2020-11-25 09:25:19,988 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:19,990 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:20,996 INFO spawned: 'consume-async' with pid 65
+2020-11-25 09:25:22,195 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:22,197 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:23,202 INFO spawned: 'consume-async' with pid 66
+2020-11-25 09:25:24,340 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:25:24,342 INFO exited: consume-async (exit status 255; not expected)
+2020-11-25 09:25:24,344 WARN received SIGQUIT indicating exit request
+2020-11-25 09:25:24,346 INFO waiting for php-fpm to die
+2020-11-25 09:25:24,351 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:26:27,419 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:26:27,421 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:26:27,439 INFO supervisord started with pid 1
+2020-11-25 09:26:28,446 INFO spawned: 'consume-async' with pid 71
+2020-11-25 09:26:28,452 INFO spawned: 'php-fpm' with pid 72
+2020-11-25 09:26:28,454 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 09:26:29,851 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:26:29,860 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:27:16,554 WARN received SIGQUIT indicating exit request
+2020-11-25 09:27:16,556 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:27:16,569 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:27:16,575 INFO stopped: consume-async (terminated by SIGTERM)
+2020-11-25 09:33:29,749 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-25 09:33:29,750 WARN For [program:php-fpm], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2020-11-25 09:33:29,763 INFO supervisord started with pid 1
+2020-11-25 09:33:30,770 INFO spawned: 'consume-async' with pid 71
+2020-11-25 09:33:30,783 INFO spawned: 'php-fpm' with pid 72
+2020-11-25 09:33:30,786 INFO reaped unknown pid 61 (exit status 0)
+2020-11-25 09:33:32,307 INFO success: consume-async entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:33:32,309 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-25 09:35:01,123 WARN received SIGQUIT indicating exit request
+2020-11-25 09:35:01,126 INFO waiting for consume-async, php-fpm to die
+2020-11-25 09:35:01,133 INFO stopped: php-fpm (exit status 0)
+2020-11-25 09:35:01,138 INFO stopped: consume-async (terminated by SIGTERM)

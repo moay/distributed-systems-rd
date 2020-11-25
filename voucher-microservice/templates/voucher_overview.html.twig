@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h1>The vouchers microservice</h1>
+        <div class="card fluid">
+            <table class="striped" style="max-height: none">
+                <caption>Vouchers</caption>
+                <thead>
+                <tr>
+                    <th>Creation date</th>
+                    <th>Voucher code</th>
+                    <th>Order ID</th>
+                    <th>Value</th>
+                    <th>Redeemed</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for voucher in vouchers|reverse %}
+                    <tr>
+                        <td data-label="Creation date">{{ voucher.createdAt|date('Y-m-d H:i:s') }}</td>
+                        <td data-label="Voucher code">{{ voucher.voucherCode }}</td>
+                        <td data-label="Order ID">{{ voucher.relatedOrderId }}</td>
+                        <td data-label="Value">{{ voucher.printableValue }}</td>
+                        <td data-label="Redeemed">{{ voucher.redeemed ? 'Yes' : 'No' }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h1>The orders microservice</h1>
+        <form method="post" action="/add-order">
+            <fieldset>
+                <legend>Create a new order</legend>
+                <label for="total">Value</label>
+                <input type="number" id="total" name="total" placeholder="150"/>
+                <input type="submit" value="Create order" />
+            </fieldset>
+        </form>
+        <div class="card fluid">
+            <table class="striped" style="max-height: none">
+                <caption>Orders</caption>
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Order ID</th>
+                    <th>Total</th>
+                    <th>Vat rate</th>
+                    <th>Grand total</th>
+                    <th>Delivery sent</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for order in orders|reverse %}
+                    <tr>
+                        <td data-label="Date">{{ order.createdAt|date('Y-m-d H:i:s') }}</td>
+                        <td data-label="Order ID">{{ order.ulid }}</td>
+                        <td data-label="Total">{{ order.total|number_format(2) }} €</td>
+                        <td data-label="Vat rate">{{ (order.vatRate * 100)|number_format(0) }} %</td>
+                        <td data-label="Grand total">{{ (order.total + order.total*order.vatRate)|number_format(2) }} €</td>
+                        <td data-label="Delivery sent">{{ order.deliverySent ? 'Yes' : 'No' }}</td>
+                        <td>
+                            {% if not order.deliverySent %}<a href="/mark-as-delivered/{{ order.id }}" class="button">Mark as delivered</a>{% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

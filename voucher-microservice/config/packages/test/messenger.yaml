@@ -1,0 +1,19 @@
+framework:
+    messenger:
+        failure_transport: ~
+        transports:
+            # https://symfony.com/doc/current/messenger.html#transport-configuration
+            rabbitmq_order_events:
+                dsn: 'sync://'
+                serializer: App\Domain\MessageBus\MessageBusJsonSerializer
+
+                retry_strategy:
+                    max_retries: 5
+                    # milliseconds delay
+                    delay: 300000
+                    # results in retrying up to 52 hours later.
+                    multiplier: 5
+
+            async: 'sync://'
+
+            failed: 'sync://'

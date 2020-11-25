@@ -1,0 +1,42 @@
+framework:
+    messenger:
+        failure_transport: failed
+
+        transports:
+            # https://symfony.com/doc/current/messenger.html#transport-configuration
+            rabbitmq_order_events:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_RABBITMQ)%'
+                serializer: App\Domain\MessageBus\MessageBusJsonSerializer
+                options:
+                    exchange:
+                        name: order-events
+                    queues:
+                        messages:
+                            arguments:
+                                x-dead-letter-exchange: order-events-dlx
+                                # Message ttl will be 2 days
+                                x-message-ttl: 172800000
+
+                retry_strategy:
+                    max_retries: 5
+                    # milliseconds delay
+                    delay: 300000
+                    # results in retrying up to 52 hours later.
+                    multiplier: 5
+
+            async:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_DOCTRINE)%'
+                retry_strategy:
+                    max_retries: 5
+                    # milliseconds delay
+                    delay: 300000
+                    # results in retrying up to 52 hours later.
+                    multiplier: 5
+
+            failed: '%env(MESSENGER_TRANSPORT_DSN_DOCTRINE)%?queue_name=failed'
+            # sync: 'sync://'
+
+        routing:
+            # Route your messages to the transports
+            'App\Message\OrderInformationMessage': async
+            'App\Domain\MessageBus\Message\OrderEventBusMessage': rabbitmq_order_events
