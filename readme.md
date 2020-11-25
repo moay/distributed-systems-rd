@@ -30,10 +30,10 @@ In order to allow playing around with the microservices, very basic dashboards a
 * Voucher microservice: `localhost:5002`
 
 The dashboards give you an impression of whats in the system and allow to create new orders and mark them as delivered.
-Due to time pressure, this part did noch receive much love. For a real world ui, I would prefer to create properly
+Due to time pressure, this part did not receive much love. For a real world UI, I would prefer creating properly
 authenticated SPAs based on Vue.js for this task and instantiate a proper webpack based asset pipeline.
 
-For further investigation of queue and database status, use the subsystem uis or local clients.
+For further investigation of queue and database status, use the subsystem UIs or local clients.
 
 #### RabbitMQ
 
@@ -53,8 +53,8 @@ Both database servers will be exposed and accessible with username `root`.
 ## Useful commands
 
 When running via docker, supervisord will make sure that the necessary consumers are running and consuming
-the messages that are floating around. These commands can of course be executed manually (stop supervisord before doing
-so), here is a quick reference:
+the messages that are floating around. These commands can of course be executed manually (before manually consuming the
+messages, stopping supervisord might be a good idea), here is a quick reference:
 
 ### Order microservice
 
@@ -79,19 +79,20 @@ leave a lot of things out.
 * Maximum possible automation of the process. This includes
     * Automated retries of failed events
     * Asynchronous communication of events towards the message bus in order to easily enable automated retries
-* Expecting communication fails. When an event fails, it will be retried and stored upon final failure, so that it can
-  easily be inspected and retried manually (or by downstream fail handling routines)
+* Expecting communication fails. When an event fails, it will be retried and stored upon terminal failure, so that it
+  can easily be inspected and retried manually (or automatically by downstream fail handling routines)
 * Fully working docker setup. This includes automatically launched queue workers and database setup.
 * Testable code. Both microservices fully rely on dependency injection and are ready to be tested.
 * Basic testing. Covering both microservices with fully blown tests was not possible due to the limited time. I added
-  some tests to verify that the process in itself is consistent and that the business strategy is properly applied. 
+  some tests to verify that the voucher generation process in itself is consistent and that the business rule is
+  properly applied. 
 
-### Things that were left out:
+### Things that I left out:
 
 * Realistic data structures. The order events and the voucher events do both not contain any sophisticated data structures.
     * The orders do not contain products, customer related information, and so on.
-    * The vouchers do not contain information about the related customer (which might be a hard limit when redeeming a
-    voucher in real life and in this case should be stored with the voucher).
+    * The vouchers do not contain information about the related customer (which might be a needed information when
+    redeeming a voucher in real life and in this case should be stored with the voucher).
 * Backporting of vouchers into the order database. This maybe a useful thing to do in a real life scenario, f.i. in order
   to be able to tell whether or not a voucher has been created for an order. I have thought of implementing this, but
   decided to not do this for mainly two reasons.
@@ -105,7 +106,7 @@ leave a lot of things out.
 * App monitoring, process monitoring and error reporting. For the purpose of this prototype, I expect both microservices
   to be running. In order to take this setup to a production environment, setting up monitoring tools would be crucial
   to make sure that all processes and systems are up and running. Also, exceptions should be reported in some sort of
-  error monitoring tool like sentry.
+  error monitoring tool like Sentry.
 * Things that are currently placed in `src/Domain/MessageBus` (in both microservices) are addressing shared domain logic
   regarding communication between the microservices. As the asynchronous communication bases on those classes and the
   classes may be useful for further usage in other microservices, they should be held in a shared composer package.
@@ -114,14 +115,14 @@ leave a lot of things out.
   this prototype), the event which initially triggered the message should maybe be fired again. In this case, it would
   be useful to have an event id which could be resubmitted with the new instance of the event. This would allow other
   downstream processes to determine if the event has already been handled and can therefore be ignored. Not providing an
-  event id or message id forces the microservices to check the message contents and decide based on those whether to do
-  anything or not (which could also be a valid strategy).
+  event id or message id forces the microservices to check the message contents and decide based on those whether or not
+  to do anything (which could also be a valid strategy).
 * Proper RabbitMQ setup for multiple consumers. Currently, the order-microservice produces messages to one fanout queue
-  on RabbitMQ. The voucher microservice will consume those and take them and acknowledge towards RabbitMQ. This will
+  on RabbitMQ. The voucher microservice will consume this queue and acknowledge the messages towards RabbitMQ. This will
   take the messages out of the queue. If at some point multiple microservices enter the game and might be interested in
   order related events, a queue/exchange management strategy would need to be discussed and implemented in order to have
   proper queues for each microservice.
-* Security between microservices. For this prototype, the communication between the microservices and RabittMQ is not
+* Security between microservices. For this prototype, the communication between the microservices and RabbitMQ is not
   encrypted. I'd recommend to at least force SSL when leaving a dev environment. Also I'd recommend signing message
   contents and validating that the message has been issued by a trustworthy system.
 * Performance considerations on the database. As the database might grow quickly, using indexes seems like a good idea.
@@ -147,18 +148,19 @@ inspection and retry.
 When a message from the order microservice is received, its time-to-live will be set to 2 days. If the message is not
 consumed within this time, it will be delivered to the dead letter exchange.
 
-The voucher service will consume the messages. We expect valid messages from the order services, although the message
-validation is quite basic and should be improved when more microservices are added to the system. If the message content
-seems not to be valid, the message will be rejected and RabbitMQ will deliver it to the dead letter exchange.
+The voucher service will consume the messages. We expect valid messages from the order services. The message contents
+will be validated, but the validation is quite basic and should be improved when more microservices are added to the
+system. If the message content seems not to be valid, the message will be rejected and RabbitMQ will deliver it to the
+dead letter exchange.
 
-If the message was accepted, it's contents will be passed to an internal asynchronous process of the voucher microservice.
+If the message was accepted, it's contents will be passed to an internal asynchronous process by the voucher microservice.
 The storing of the message might fail, if so, RabbitMQ will try to redeliver the message several times. In case of
-terminal failure, the message will be stored as failed job in the microservice (or in the dead letter exchang if this
+terminal failure, the message will be stored as failed job in the microservice (or in the dead letter exchange if this
 also fails).
 
 In the current setup, there is no consumer for the dead letter exchange. A terminal failure handling strategy would have
-to decide what to do with those messages and how to react. A valid approach would be to consume the dlx in the order
-microservice and retrigger the event.
+to decide what to do with those messages and how to react. A valid approach would be to consume messages from the dead
+letter excange in the order microservice and retrigger the event.
 
 ### Voucher microservice
 
